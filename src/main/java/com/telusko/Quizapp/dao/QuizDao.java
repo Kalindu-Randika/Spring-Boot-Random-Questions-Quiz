@@ -1,0 +1,7 @@
+package com.telusko.Quizapp.dao;
+
+import com.telusko.Quizapp.domain.Quiz;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface QuizDao  extends JpaRepository<Quiz,Integer> {
+}
